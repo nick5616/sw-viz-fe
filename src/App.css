@@ -1,0 +1,22 @@
+.App {
+    text-align: center;
+}
+
+.loader {
+    border-top: 8px solid #2e67f8;
+    border-bottom: 8px solid #eb212e;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    margin-right: 10px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
