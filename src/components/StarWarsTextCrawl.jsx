@@ -19,6 +19,7 @@ export function StarWardTextCrawl({ text }) {
                     engineer, a cool guy named Nick, and although his skills are
                     great, he's always eager to learn more. I believe he can
                     save us all...
+                    {/* The above text is a reference to the cartoon series "Avatar the Last Airbender". If you haven't seen it, I'd highly recommend it. */}
                 </div>
             </section>
         </>
