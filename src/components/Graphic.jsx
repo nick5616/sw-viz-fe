@@ -19,6 +19,7 @@ export function Graphic({ heading, graph, description }) {
             <div
                 style={{
                     background: "rgb(46,103,248)",
+                    // eslint-disable-next-line no-dupe-keys
                     background:
                         "linear-gradient(45deg, rgba(46,103,248,1) 18%, rgba(235,33,46,1) 80%)",
                     margin: "10px 40px",

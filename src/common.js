@@ -1,4 +1,4 @@
-export const SW_API_LOCAL_PORT = 3001;
+export const SW_API_LOCAL_PORT = 8080;
 export const GRAPH_DARK_THEME = {
     background: "#080808",
     text: {
