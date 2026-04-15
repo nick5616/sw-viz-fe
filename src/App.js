@@ -4,7 +4,6 @@ import { Graphic } from "./components/Graphic";
 import { LinearLineGraph } from "./components/LinearLineGraph";
 import { LogarithmicLineGraph } from "./components/LogarithmicLineGraph";
 import { StarWardTextCrawl } from "./components/StarWarsTextCrawl";
-import { SW_API_LOCAL_PORT } from "./common";
 
 function App() {
     const [costData, setCostData] = React.useState([]);
@@ -13,7 +12,7 @@ function App() {
 
     React.useEffect(() => {
         if (costData.length === 0) {
-            fetch(`http://localhost:${SW_API_LOCAL_PORT}/cost/`)
+            fetch(`https://sw-viz-be-zzuil7uunq-wl.a.run.app/cost/`)
                 .then((res) => res.json())
                 .then((val) => {
                     console.log("val", val);
