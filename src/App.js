@@ -12,7 +12,7 @@ function App() {
 
     React.useEffect(() => {
         if (costData.length === 0) {
-            fetch(`https://sw-viz-be-zzuil7uunq-wl.a.run.app/cost/`)
+            fetch(`https://sw-viz-be-281060545935.us-central1.run.app/cost/`)
                 .then((res) => res.json())
                 .then((val) => {
                     console.log("val", val);
